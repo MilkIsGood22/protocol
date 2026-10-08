@@ -26,4 +26,9 @@ IndexedDB "protocol-film"), moved {date:[blocks]}, skipped {blockId:true}, injur
 - First 2D rig rejected ("very bad and wonky"). Rebuilt as a 3D skeleton + WebGL. Never go back to 2D points.
 - Oct 7–8: rebuilt all 17 moves, 10 strength loops, 8 position stills; 419-node move tree; pose editor,
   film room, week editing, prep plan, match log and the rest of the spec gaps.
-- GitHub: user is MilkIsGood22; repo `protocol` still did not exist on Oct 8 (add_repo fails until he creates it).
+- GitHub: repo MilkIsGood22/protocol is live on Pages: https://milkisgood22.github.io/protocol/ (index.html and
+  protocol.html are the same build). Deploy = copy outputs/protocol.html to both, copy src to source/, commit, push.
+  The repo's source/ folder is a backup of this src folder (restore from it after a container reset).
+- Oct 8 (later): added bottom-of-mount moves (bottom1.jsx), bottom side control (bottom2.jsx), sweeps (guard6.jsx),
+  sit to guard / double leg / ankle pick (zextra.jsx), solo drill loops (zdrills.jsx). Tree nodes use lib= or anim=.
+  San Diego Oct 10 event removed per the spec (he is not going).
